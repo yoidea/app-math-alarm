@@ -1,13 +1,10 @@
 import React from "react";
+import Router from "./Router";
 import "materialize-css";
 import "materialize-css/sass/materialize.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className="pink-text center">Hello from Materialize</h1>
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
