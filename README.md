@@ -32,4 +32,8 @@ Builds the app for production to the `build` folder.
 
 ### `yarn electron`
 
-Runs electron development tool Based on `src/electron-starter.js`
+Runs electron development tool Based on `src/electron-starter.js`.
+
+### `yarn pack:mac`
+
+Packaging app for mac.

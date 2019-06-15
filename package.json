@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write src/{*/,}*.{js,jsx}",
-    "electron": "electron ."
+    "electron": "electron .",
+    "pack:mac": "electron-packager . app --platform=darwin --arch=x64 --overwrite"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "electron": "^5.0.4",
+    "electron-packager": "^13.1.1",
     "prettier": "^1.18.2"
   },
   "prettierConfig": {

@@ -1,3 +1,6 @@
+# Dist
+app-*
+
 # Logs
 logs
 *.log
