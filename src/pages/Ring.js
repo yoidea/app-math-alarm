@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Seplayer from "../components/seplayer";
+import dig01 from "../sounds/Dig01-3L.mp3";
 
 class Home extends Component {
   render() {
@@ -11,6 +13,7 @@ class Home extends Component {
           minHeight: "100vh"
         }}
       >
+        <Seplayer file={dig01} />
         <h1 className="white-text center">Ringing!</h1>
       </div>
     );
