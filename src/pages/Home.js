@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import Cardlink from "../components/cardlink";
 
 class Home extends Component {
   render() {
     return (
       <div
-        className="Home blue-grey darken-1"
+        className="Home blue-grey darken-2"
         style={{
           margin: "0",
           padding: "3em",
@@ -13,9 +13,21 @@ class Home extends Component {
         }}
       >
         <h1 className="white-text center">Hello from Materialize</h1>
-        <Link className="btn btn-large" to="ring">
-          Ring
-        </Link>
+        <Cardlink title="Ring" to="/ring">
+          I am a very simple card. I am good at containing small bits of
+          information. I am convenient because I require little markup to use
+          effectively.
+        </Cardlink>
+        <Cardlink title="List" to="/">
+          I am a very simple card. I am good at containing small bits of
+          information. I am convenient because I require little markup to use
+          effectively.
+        </Cardlink>
+        <Cardlink title="Setiing" to="/">
+          I am a very simple card. I am good at containing small bits of
+          information. I am convenient because I require little markup to use
+          effectively.
+        </Cardlink>
       </div>
     );
   }
