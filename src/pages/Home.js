@@ -13,7 +13,7 @@ class Home extends Component {
         }}
       >
         <h1 className="white-text center">Hello from Materialize</h1>
-        <Cardlink title="Ring" to="/ring">
+        <Cardlink title="Determinant" to="/ring/determinant">
           I am a very simple card. I am good at containing small bits of
           information. I am convenient because I require little markup to use
           effectively.
