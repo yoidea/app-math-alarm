@@ -14,12 +14,12 @@ class Home extends Component {
       >
         <h1 className="white-text center">App Math Alerm Clock</h1>
         <Cardlink title="Determinant" to="/ring/determinant">
-         
+          Set alerm that needs to solve determinant
         </Cardlink>
         <Cardlink title="Differential" to="/ring/differential">
-          
+          Set alerm that needs to solve differential equation
         </Cardlink>
-        <Cardlink title="Setiing" to="/">
+        <Cardlink title="Setting" to="/">
           
         </Cardlink>
       </div>
