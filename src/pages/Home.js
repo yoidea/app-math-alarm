@@ -12,21 +12,15 @@ class Home extends Component {
           minHeight: "100vh"
         }}
       >
-        <h1 className="white-text center">Hello from Materialize</h1>
+        <h1 className="white-text center">App Math Alerm Clock</h1>
         <Cardlink title="Determinant" to="/ring/determinant">
-          I am a very simple card. I am good at containing small bits of
-          information. I am convenient because I require little markup to use
-          effectively.
+         
         </Cardlink>
-        <Cardlink title="List" to="/">
-          I am a very simple card. I am good at containing small bits of
-          information. I am convenient because I require little markup to use
-          effectively.
+        <Cardlink title="Differential" to="/ring/differential">
+          
         </Cardlink>
         <Cardlink title="Setiing" to="/">
-          I am a very simple card. I am good at containing small bits of
-          information. I am convenient because I require little markup to use
-          effectively.
+          
         </Cardlink>
       </div>
     );

@@ -35,7 +35,7 @@ class Determinant extends Component {
     const inputs = sign * (100 * d[0] + 10 * d[1] + 1 * d[2]);
     console.log(`inputs: ${inputs}, answer: ${this.state.answer}`);
     if (inputs === this.state.answer) {
-      this.props.history.push("/");
+      this.props.history.push("/rising");
     }
   };
 
